@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Teko", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+
+}
+
+.header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+.container-search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 43%;
+
+}
+
+.search-box {
+    display: flex;
+    border: 1px solid white;
+    border-radius: 10px;
+    float: left;
+    width: 80%;
+    height: 100%;
+    margin-left: 1px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.search-box::placeholder {
+    color: black;
+    font-family: "Space Grotesk", sans-serif;
+    text-indent: 100px;
+
+
+
+}
+
+.search-box:focus {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.4);
+}
+
+.search-button {
+    height: 100%;
+    width: 10%;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.search-button .fas.fa-search {
+    color: white;
+}
+
+.search-button .fas.fa-search {
+    transition: color 0.3s ease-in-out;
+
+}
+
+.search-button:hover {
+    background-color: white;
+    color: white;
+}
+
+.search-button:hover .fas.fa-search {
+    color: black;
+}
+
+
+.container-accounts {
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 1100px;
+}
+
+.container-accounts #login-button {
+    height: 35px;
+    width: 80px;
+    background-color: transparent;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border: transparent;
+}
+
+
+
+
+
+.container-accounts #register-button {
+    height: 35px;
+    width: 100px;
+    background-color: transparent;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+    cursor: pointer;
+    border: transparent;
+}
+
+#container-text-mini {
+    position : absolute;
+    display: flex;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    background-color: black;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-left: 780px;
+    margin-top: 25px;
+}
+
+#container-text-mini a {
+    text-decoration: none;
+
+}
+
+#text-categories {
+    font-family: "Fjalla One", sans-serif;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    
+
+}
+
+#text-home {
+
+    font-family: "Fjalla One", sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-right: 70px;
+    cursor: pointer;
+
+
+
+}
+
+
+
+#logo {
+    position: absolute;
+    display: flex;
+    width: 50px;
+    margin-top: 19px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+#logo a {
+    text-decoration: none;
+    
+}
+
+#logo h1 {
+    color: white;
+    font-size: 50px;
+}
+
+#img-gamer {
+    display: flex;
+    overflow: hidden;
+    width: 450px;
+    height: 450px;
+    top: 10px;
+    margin-left: 800px;
+
+}
+
+#img-gamer img {
+    padding: auto;
+   
+}
+
+#text-build {
+    position: absolute;
+    display: flex;
+    top: 200px;
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+}
+
+#text-build h1 {
+    font-size: 100px;
+    color: white;
+}
